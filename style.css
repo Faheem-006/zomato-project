@@ -4,7 +4,7 @@
 }
 body {
     font-family: 'Merriweather', serif;
-    background-color: #f9fafc;
+    background-color: #ebf2ff;
  }
  .navbar {
 display: flex;
@@ -23,7 +23,7 @@ background-color: #fff;
 
 }
 
-.nav__item {
+.button__primary {
     background-image: linear-gradient(
         to right,
         #F86F03 0%,
@@ -37,9 +37,32 @@ background-color: #fff;
      font-weight: 600;
 }
 
-.nav__item:hover{
+.button__primary:hover{
     border: 2px solid #FF0060;
     cursor: pointer;
+}
+
+.container {
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.hero__image__container {
+    width: 100%;
+}
+
+.hero__image {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 25%);
+}
+
+.hero__text {
+    font-size: 30px;
+    padding: 20px 0;
+    color: #1d3557;
+    font-weight: 800;
 }
 
 @media (min-width: 768px) {
@@ -47,15 +70,101 @@ background-color: #fff;
         justify-content: space-between;
         padding: 10px 30px;
     }
+    .hero__container {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .explore__menu__lists {
+        display: flex;
+        gap: 20px;
+        margin-top: 50px;
+        padding: 0 30px;
+    }
+
+    .explore__menu__container {
+        position: relative;
+    }
+
+    .explore__menu__gradient__bg {
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(
+            to right,
+            #F86F03 0%,
+            #FF0060 51%,
+            #E55807 100%
+         );
+         z-index: -3;
+         transform: skewY(-5deg);
+  
+    }
+
+    #pizza__card {
+        margin-top: -20px;
+        margin-bottom: 30px;
+    }
 }
 
-@media (min-width: 1020px) {
+.food__card__image__container {
+    width: 100%;
+}
+
+.food__image {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.food__card {
+    background-color: #F9F9F9;
+}
+
+.food__card__description {
+    padding: 15px;
+}
+
+.explore__menu__text {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #1d3557;
+    font-weight: 800;
+}
+
+@media (min-width: 1024px) {
     .navbar__brand {
         width: 150px;
+        
+        }
+        .container {
+            max-width: 70%;
+        }
     }
-    .nav__item {
+    .button__primary {
         padding: 15px;
         font-size: 15px;
     }
+
+    .hero__description {
+        width: 100%;
+    }
+
+    .hero__text {
+        font-size: 40px;
+    }
+
+    .explore__menu__lists {
+        gap: 25px;
+        
+}
+
+.explore__menu__text {
+    font-size: 48px;
 }
  
