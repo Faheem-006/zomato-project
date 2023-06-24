@@ -65,6 +65,34 @@ background-color: #fff;
     font-weight: 800;
 }
 
+.footer__section__logo {
+    width: 42px;
+}
+
+.zomato__logo {
+    width: 42px;
+}
+
+.footer__section {
+    display: flex;
+align-items: center;
+justify-content: space-around;
+
+ }
+
+ .footer__section__brand {
+    width: 100px;
+ }
+
+ .footer__logo {
+    width: 100%;
+ }
+
+
+
+
+
+
 @media (min-width: 768px) {
     .navbar {
         justify-content: space-between;
@@ -109,6 +137,65 @@ background-color: #fff;
         margin-top: -20px;
         margin-bottom: 30px;
     }
+
+    .font__style {
+        display: flex;
+        gap: 15px;
+        
+    }
+
+    .font__style2 {
+        display: flex;
+        gap: 15px;
+        justify-content: space-between;
+       
+        
+
+        
+
+    }
+
+    #dining__3 {
+        margin-top: 10px ;
+    }
+
+    #dining__4 {
+        margin-top: -20px;
+    }
+
+    #dining__1 {
+        margin-top: 30px;
+
+    }
+
+    #dining__2 {
+        align-items: first baseline;
+        display: flex;
+
+
+    }
+
+    .footer__section {
+        position: relative;
+    }
+
+    .footer__section__gradient__bg {
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(
+            to right,
+            #F86F03 0%,
+            #FF0060 51%,
+            #E55807 100%
+         );
+         z-index: -3;
+         
+    }
+    
+          
 }
 
 .food__card__image__container {
@@ -136,6 +223,43 @@ background-color: #fff;
     color: #1d3557;
     font-weight: 800;
 }
+
+.res__list__image__container {
+    width: 100%;
+}
+
+.res__image {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.font__style__text {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #1d3557;
+    font-weight: 800;
+}
+
+.res__list__image__container2 {
+    width: 100%;
+}
+
+.res__image2 {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.font__style__text2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #1d3557;
+    font-weight: 800;
+}
+
 
 @media (min-width: 1024px) {
     .navbar__brand {
@@ -167,4 +291,5 @@ background-color: #fff;
 .explore__menu__text {
     font-size: 48px;
 }
- 
+
+
