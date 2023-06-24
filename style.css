@@ -88,6 +88,26 @@ justify-content: space-around;
     width: 100%;
  }
 
+ .footer__section {
+    position: relative;
+}
+
+.footer__section__gradient__bg {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(
+        to right,
+        #F86F03 0%,
+        #FF0060 51%,
+        #E55807 100%
+     );
+     z-index: -3;
+     
+}
+
 
 
 
@@ -258,6 +278,7 @@ justify-content: space-around;
     font-size: 30px;
     color: #1d3557;
     font-weight: 800;
+    
 }
 
 
